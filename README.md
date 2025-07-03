@@ -17,16 +17,17 @@ Features
     Automatic Token Management: Handles GoFile.io API token and WebsiteToken acquisition automatically.
 
 Setup
-Clone the Repository:
+    Clone the Repository:
 
-    git clone https://github.com/YourUsername/GoFile-DL.git
+    git clone https://github.com/systemjacker/GoFile-DL.git
     cd GoFile-DL
 
 Usage
 
 Run the application from the project's root directory using dotnet run --.
-Command-Line Arguments
+    Command-Line Arguments
 
+    
     <URL_or_ContentID>: (Required) The GoFile.io URL (e.g., https://gofile.io/d/YOUR_ID) or just the content ID (e.g., YOUR_ID) of the file or folder you want to download.
 
     -t <num_threads>: (Optional) Number of threads to use for downloading. Default is 1.
